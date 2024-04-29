@@ -2,7 +2,7 @@
 
 import sys
 from argparse import ArgumentParser
-from core import NcloudClient
+from src.core import NcloudClient
 
 if __name__=='__main__':
     print(sys.argv)

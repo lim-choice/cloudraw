@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="my_package",
+    name="cloudraw",
     version="0.1.0",
-    description="ncli project",
+    description="Cloudraw Project for NaverCloudPlatform",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/my_package",
+    url="https://github.com/Jangab-water/cloudraw.git",
     author="Ryu Jihyeong",
     author_email="jihyeong@didim365.com",
     license="Apache 2.0",
@@ -20,4 +20,5 @@ setup(
     install_requires=[
         # 여기에 필요한 패키지 종속성을 추가
     ],
+    scripts=['bin/nclient']
 )
