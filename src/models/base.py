@@ -18,7 +18,3 @@ class NcloudCredential(BaseModel):
         if v.lower() not in ['gov', 'public']:
             raise ValueError(f"Value {v} is not allowed in property 'site'. Only 'gov' or 'public' is supported.")
 
-
-class NcloudParser:
-    def __init__(self, parser: ArgumentParser):
-        self.parser = parser
