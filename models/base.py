@@ -1,5 +1,4 @@
 from pydantic import BaseModel, field_validator
-from argparse import ArgumentParser
 
 
 class NcloudCredential(BaseModel):
